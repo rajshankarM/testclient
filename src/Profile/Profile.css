@@ -1,0 +1,22 @@
+.header {
+  position: sticky !important;
+}
+
+.para:hover {
+  background-color: blanchedalmond;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  grid-template: min-content;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* background-color: #01070f !important; */

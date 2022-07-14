@@ -1,0 +1,119 @@
+.home {
+  height: 90vh;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  transition: transform 0.3s;
+} */
+/* .caption {
+  display: block;
+} */
+/* 
+.modal-background {
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: rgba(200, 200, 200) !important;
+  background-color: transparent;
+  position: fixed !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+} */
+
+/* .modal-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+} */
+
+.title {
+  color: rgb(5, 13, 13);
+}
+
+.css-1yo1jo6-MuiStack-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.css-1yo1jo6-MuiStack-root {
+  background-color: #cfd2d7 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.icon {
+  height: 80px;
+  width: 80px;
+  /* color: rgb(46, 45, 45); */
+  color: #65686e;
+  padding: 10px;
+}
+.modal.show .modal-dialog {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.modal-content {
+  height: 450px !important;
+  width: 700px !important;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 230px;
+  background-color: rgb(48, 39, 39);
+  border-radius: 5px;
+}
+.choose-file {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 3px;
+  /* background-color: rgb(59, 87, 77); */
+  height: 50px;
+  border-radius: 5px;
+  background-color: black;
+}
+/* .modal-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px !important;
+  width: 500px !important;
+} */
+
+.input-video {
+  display: flex !important;
+  /* background-color: rgb(4, 8, 7); */
+  color: whitesmoke;
+  align-items: center !important;
+  height: 100% !important;
+  width: 100% !important;
+  justify-content: center !important;
+}
+
+input {
+  width: 100% !important;
+}
+
+.modal-tag {
+  height: 40px;
+  width: 10px;
+  margin-top: 50px !important;
+  border: none;
+  padding: 6px;
+}
+
+.footer-button {
+  justify-content: space-between !important;
+}

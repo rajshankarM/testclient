@@ -1,0 +1,24 @@
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  transition: transform 0.3s;
+}
+img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s;
+}
+div.item:hover {
+  transform: scale(1.5);
+}
+.caption {
+  display: block;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

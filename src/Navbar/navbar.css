@@ -1,0 +1,28 @@
+.nav-container {
+  height: 100%;
+  width: 100px;
+  background-color: #021935;
+}
+
+h3 {
+  display: flex;
+  position: absolute;
+  /* width: auto; */
+  transform: translate(-50%, -50%);
+  color: #422a53;
+  margin-right: 3rem !important;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+h3 span {
+  margin-top: 38px;
+  margin-left: 10px;
+  font-size: 5vh;
+  font-weight: 100;
+  text-shadow: -0.08em 0.03em 0.02em rgba(249, 249, 249, 0.9);
+}
+
+h3 span:not(:first-child) {
+  margin-left: -0.1em;
+}

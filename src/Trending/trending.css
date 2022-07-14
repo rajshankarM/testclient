@@ -1,0 +1,46 @@
+.trenditem {
+  /* background-color: #021935; */
+  background-color: #104892 !important;
+  width: auto !important;
+  height: 100% !important;
+}
+.trending-item {
+  background-color: #104892 !important;
+}
+
+.trending-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  background-color: #104892 !important;
+}
+
+.trending-card {
+  /* background: rgb(39, 80, 244) !important; */
+  background-color: #0a1524 !important;
+  width: 190px !important;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  /* padding: 2rem; */
+  text-align: center;
+  transition: all 400ms ease;
+  justify-content: center;
+}
+
+.trending__card:hover {
+  background: transparent;
+  border-color: black !important;
+  cursor: default;
+}
+
+.trending-title {
+  padding: 5px !important;
+  margin-bottom: 20px !important;
+  margin-right: 40rem !important;
+}
+
+.trending-button {
+  background-color: white !important;
+  color: #01070f !important;
+  font-size: 13px !important;
+}
